@@ -15,7 +15,9 @@ endif()
 
 #if(${INCLUDE_OPENGL})
 
-    add_subdirectory(graphics3d/glad)
+
+add_subdirectory(graphics3d/glad)
+add_subdirectory(graphics3d/ktx)
 
 #endif()
 
