@@ -13,14 +13,14 @@ if(INCLUDE_AUDIO)
 endif()
 
 
-if(${INCLUDE_OPENGL})
+#if(${INCLUDE_OPENGL})
 
     add_subdirectory(graphics3d/glad)
 
-endif()
+#endif()
 
 
-add_subdirectory(graphics3d/ktx)
+#add_subdirectory(graphics3d/ktx)
 
 
 #if(INCLUDE_DRAW2D_CAIRO)
