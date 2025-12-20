@@ -1,0 +1,12 @@
+[submodule "base"]
+	path = base
+	url = ../linux-port-base
+	branch = main
+[submodule "common"]
+	path = common
+	url = ../port-common
+	branch = main
+[submodule "graphics3d"]
+	path = graphics3d
+	url = ../land-opengl-port-graphics3d
+	branch = main
